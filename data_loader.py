@@ -21,7 +21,6 @@ def load_data(path = "data.csv"):
     for col in data.columns:
         data[col] = data[col].astype(float)
     
-    
     # Drop the t (time) values, since they won't be of use.
     data = data.drop("t", axis=1)
     
@@ -42,9 +41,9 @@ def load_data(path = "data.csv"):
     
     min_cols = data.loc[data["flag"] == 0, cols_to_norm].min()
     max_cols = data.loc[data["flag"] == 0, cols_to_norm].max()
-    
     data.loc[:, cols_to_norm] = (data[cols_to_norm] - min_cols) / (max_cols - min_cols)
     
+    # Return values only for usage with scikit-learn.
     return data.values
     
 if __name__ == "__main__":
