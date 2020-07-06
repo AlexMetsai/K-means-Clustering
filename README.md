@@ -3,9 +3,9 @@ K-means clustering using python and scikit-learn.
 
 All dependencies are provided in the enviroment.yml file.
 Main dependencies include:
-python 3.6
-scikit-learn 0.23
-pandas 1.0.5
+python 3.6  
+scikit-learn 0.23  
+pandas 1.0.5  
 scipy 1.5
 
 Train the model using the command:
