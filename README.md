@@ -1,5 +1,5 @@
 # K-means-Clustering
-K-means clustering using python.
+K-means clustering using python and scikit-learn.
 
 All dependencies are provided in the enviroment.yml file.
 Main dependencies include:
