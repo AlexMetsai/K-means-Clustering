@@ -14,3 +14,5 @@ python fit_kmeans.py
 ```
 
 The model achieves 72% accuracy on the training set and 71% on the testing set.
+
+A REST API was developed for deploying the model as a service. See the README inside the corresponding folder for more information regarding this functionality.
