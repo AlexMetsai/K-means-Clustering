@@ -8,7 +8,7 @@ docker run -it --expose 8008 -p 8080:8080  kmeans
 python service.py
 ```
 
-###Example queries:
+### Example queries:
 
 Request 1:
 ```
